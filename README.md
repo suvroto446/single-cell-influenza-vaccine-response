@@ -28,6 +28,14 @@ The workflow covers quality control, normalization, dimensionality reduction, cl
 
 7. Independent validation: Use a separate Seurat workflow to assess the concordance of the broad cellular structure identified by Scanpy.
 
+
+# Computational Environment
+
+Python: 3.13.16
+Operating environment: Linux (Google Colab)
+Package dependencies: See `requirements.txt`
+
+
 # Key Findings
 
 1. Across both Scanpy and Seurat workflows, marker gene analysis resolved 7 broad lymphocyte populations—B cells, Naive/Central Memory CD4 T cells, Resting CD4 T cells, Naive/central memory mixed T cells, Cytotoxic CD8 T cells, NK cells, and NK/T-like cytotoxic cells—with no myeloid cells identified in the dataset.
